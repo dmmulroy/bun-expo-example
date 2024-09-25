@@ -5,9 +5,9 @@
   "scripts": {
     "start": "run bun expo start",
     "reset-project": "bun ./scripts/reset-project.js",
-    "android": "run bun expo start --android",
-    "ios": "run bun expo start --ios",
-    "web": "run bun expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint"
   },
